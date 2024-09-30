@@ -41,7 +41,7 @@ public class CompanyController {
         if(isDeleted) {
             return new ResponseEntity<>("company succesfully deleted", HttpStatus.OK);
         } else {
-            return new ResponseEntity<>("company not found", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("company has not been found", HttpStatus.NOT_FOUND);
         }
     }
 
